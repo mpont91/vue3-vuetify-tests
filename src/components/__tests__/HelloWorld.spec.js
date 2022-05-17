@@ -13,8 +13,7 @@ describe('HelloWorld', () => {
             global: {
                 plugins: [vuetify],
             },
-            props: { title: "Hello Vitest" },
         })
-        expect(wrapper.text()).toContain('Hello Vitest')
+        expect(wrapper.text()).toContain('Welcome to the Vuetify 3')
     })
 })
