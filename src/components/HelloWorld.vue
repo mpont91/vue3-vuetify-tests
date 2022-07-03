@@ -25,6 +25,7 @@
             target="_blank"
           >Discord Community</a>
         </p>
+        <v-text-field id="example" v-model="example" name="example" />
       </v-col>
 
       <v-col
@@ -100,6 +101,7 @@ export default {
   name: 'HelloWorld',
 
   data: () => ({
+    example: null,
     ecosystem: [
       {
         text: 'vuetify-loader',

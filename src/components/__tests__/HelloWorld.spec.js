@@ -14,6 +14,8 @@ describe('HelloWorld', () => {
                 plugins: [vuetify],
             },
         })
+
+        wrapper.find('#example').setValue('Hello World')
         expect(wrapper.text()).toContain('Welcome to the Vuetify 3')
     })
 })
